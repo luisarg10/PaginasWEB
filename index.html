@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Infinite Group- Soluciones Tecnologicas</title>
+    <meta name="description" content="Next Infinite Group ofrece soluciones tecnológicas integrales: automatización, inteligencia artificial, desarrollo de software y consultoría tecnológica.">
+    <meta name="keywords" content="automatización, inteligencia artificial, desarrollo software, consultoría tecnológica, RPA, transformación digital">
+    <meta name="author" content="Next Infinite Group">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nextinfinitegroup.com/">
+    <meta property="og:title" content="Next Infinite Group - Soluciones Tecnológicas Innovadoras">
+    <meta property="og:description" content="Soluciones tecnológicas integrales para transformar tu negocio con automatización, IA y desarrollo de software.">
+    <meta property="og:image" content="https://nextinfinitegroup.com/img/NIG_4.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://nextinfinitegroup.com/">
+    <meta property="twitter:title" content="Next Infinite Group - Soluciones Tecnológicas Innovadoras">
+    <meta property="twitter:description" content="Soluciones tecnológicas integrales para transformar tu negocio con automatización, IA y desarrollo de software.">
+    <meta property="twitter:image" content="https://nextinfinitegroup.com/img/NIG_4.jpg">
+    
+    <!-- Preconexión para mejorar rendimiento -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="img/NIG_4.jpg" type="image/jpeg">
+    
+    <!-- Hojas de estilo externas -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    
+    <!-- Hoja de estilo local -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-gray-900 text-gray-100">
+    <!-- Navbar -->
+    <nav class="navbar-transition fixed w-full z-50 py-4 md:py-2 lg:py-4 px-6 lg:px-16" id="navbar">
+        <div class="flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="img/NIG_4.jpg" alt="Logo de Next Infinite Group" width="48" class="mr-3">
+                <a href="#" class="text-4xl font-bold text-blue-400 flex items-center">
+                    <span class="hidden sm:inline">Next</span>
+                    <span class="text-white hidden sm:inline">Infinite</span>
+                </a>
+            </div>
+            
+            <div class="hidden md:flex space-x-8">
+                <a href="#home" class="text-xl hover:text-blue-400 transition">Inicio</a>
+                <a href="#services" class="text-xl hover:text-blue-400 transition">Servicios</a>
+                <a href="#technologies" class="text-xl hover:text-blue-400 transition">Tecnologías</a>
+                <a href="#about" class="text-xl hover:text-blue-400 transition">Nosotros</a>
+                <a href="#contact" class="text-xl hover:text-blue-400 transition">Contacto</a>
+            </div>
+            
+            <div class="flex items-center space-x-4">
+                <a href="https://wa.me/50241459111" target="_blank" 
+                     class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg font-medium transition text-white inline-block">
+                    Cotizar
+                </a>
+                <button class="md:hidden text-2xl" id="mobile-menu-button" aria-label="Abrir menú">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+       
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden bg-gray-800 mt-4 rounded-lg p-4" id="mobile-menu">
+            <div class="flex flex-col space-y-3">
+                <a href="#home" class="hover:text-blue-400 transition py-2">Inicio</a>
+                <a href="#services" class="hover:text-blue-400 transition py-2">Servicios</a>
+                <a href="#technologies" class="hover:text-blue-400 transition py-2">Tecnologías</a>
+                <a href="#about" class="hover:text-blue-400 transition py-2">Nosotros</a>
+                <a href="#contact" class="hover:text-blue-400 transition py-2">Contacto</a>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero-gradient pt-32 pb-20 lg:pb-32 px-6 lg:px-16" id="home">
+        <div class="container mx-auto flex flex-col lg:flex-row items-center">
+            <div class="lg:w-1/2 mb-12 lg:mb-0">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                    Soluciones <span class="text-blue-400">Tecnológicas</span> para el Futuro
+                </h1>
+                <p class="text-lg text-gray-300 mb-8 max-w-lg">
+                    En Next Infinite Group somos una empresa de tecnología enfocada en transformar ideas en soluciones integrales innovadoras. 
+                    Con un equipo multidisciplinario de expertos, combinamos creatividad, estrategia y tecnología para ofrecer productos y servicios de alto impacto.
+                </p>
+                <p class="text-lg text-gray-300 mb-8 max-w-lg">
+                    Ayudamos a las empresas a innovar, optimizar procesos y mantenerse competitivas en un entorno digital en constante evolución.
+                </p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#technologies" 
+                     class="border border-blue-400 text-blue-400 hover:bg-blue-900 hover:bg-opacity-30 px-6 py-3 rounded-lg font-medium transition inline-block">
+                     Nuestros Servicios
+                    </a>
+                    <a href="#services" 
+                        class="border border-blue-400 text-blue-400 hover:bg-blue-900 hover:bg-opacity-30 px-6 py-3 rounded-lg font-medium transition inline-block">
+                        Ver Proyectos
+                     </a>
+                </div>
+            </div>
+            
+            <div class="lg:w-1/2 flex justify-center">
+                <div class="relative glow-effect w-full max-w-lg">
+                    <div class="relative">
+                        <img src="img/6237.jpg" alt="Robot humanoide con holograma de microchip" class="w-full h-auto animated-robot">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Clients Section -->
+    <section class="py-12 bg-gray-800 px-6">
+        <div class="container mx-auto">
+            <h2 class="text-center text-gray-400 mb-8">TRABAJAMOS CON LAS MEJORES MARCAS</h2>
+            <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16">
+                <img src="img/logo_google.jpg" alt="Google" class="h-12 opacity-70 hover:opacity-100 transition">
+                <img src="img/logo_amazon.jpg" alt="Amazon" class="h-12 opacity-70 hover:opacity-100 transition">
+                <img src="img/logo_microsoft.jpg" alt="Microsoft" class="h-12 opacity-70 hover:opacity-100 transition">
+                <img src="img/uipath-vector-logo.png" alt="UiPath" class="h-12 opacity-70 hover:opacity-100 transition">
+                <img src="img/Samsung_Logo.png" alt="Samsung" class="h-12 opacity-70 hover:opacity-100 transition">
+                <img src="img/Dell_Logo.png" alt="Dell" class="h-12 opacity-70 hover:opacity-100 transition">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección Servicios -->
+    <section class="py-20 bg-gray-800 px-6 lg:px-16" id="technologies">
+        <div class="container mx-auto">
+            <div class="text-center mb-16">
+                <span class="text-blue-400 font-medium">SERVICIOS</span>
+                <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4 text-white">
+                    Nuestros Servicios Especializados
+                </h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">
+                    Ofrecemos soluciones tecnológicas integrales para transformar tu negocio.
+                </p>
+            </div>
+
+            <!-- Carrusel con Swiper -->
+            <div class="swiper h-64 md:h-80 lg:h-[500px] xl:h-[600px] max-h-screen">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide relative">
+                        <img src="img/38054.jpg" alt="Consultoría y estrategia tecnológica" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-6">
+                            <h3 class="text-white text-2xl font-bold">Consultoría y estrategia tecnológica</h3>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide relative">
+                        <img src="img/58873.jpg" alt="Servicios en la nube" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-6">
+                            <h3 class="text-white text-2xl font-bold">Servicios en la nube</h3>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide relative">
+                        <img src="img/31146.jpg" alt="Automatización de procesos RPA" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-6">
+                            <h3 class="text-white text-2xl font-bold">Automatización de procesos RPA</h3>
+                        </div>
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="swiper-slide relative">
+                        <img src="img/4494.jpg" alt="Data y Analytics" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-6">
+                            <h3 class="text-white text-2xl font-bold">Data y Analytics</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controles del Swiper -->
+                <div class="swiper-button-next text-white"></div>
+                <div class="swiper-button-prev text-white"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section class="py-20 px-6 lg:px-16" id="services">
+        <div class="container mx-auto">
+            <div class="text-center mb-16">
+                <span class="text-blue-400 font-medium">NUESTROS SERVICIOS</span>
+                <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4">Soluciones Tecnológicas Innovadoras</h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">
+                    Nos especializamos en áreas de asesoría y consultoría, Software a medida, Paginas y Aplicaciones Web, aplicaciones móviles, soluciones en nube, inteligencia artificial, automatización de procesos a través de RPA, Soporte técnico y Operativo.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Cards (se mantienen igual que en tu código original) -->
+                <!-- Service Card 1 -->
+                <div class="service-card bg-gray-800 rounded-xl p-8 transition cursor-pointer">
+                    <div class="w-16 h-16 bg-gray-700 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-microchip fa-2xl" style="color: #63E6BE;"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Transformación digital</h3>
+                    <p class="text-gray-400 mb-4">
+                        Asesoría y consultoría en ejecución de estrategias para agilizar procesos,automatizar y mejorar la eficiencia para adoptar nuevas tecnologías. 
+                    </p>
+                    <a href="#" class="text-blue-400 hover:text-blue-300 font-medium flex items-center">
+                        Saber más <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+                
+                <!-- Service Card 2 -->
+                <div class="service-card bg-gray-800 rounded-xl p-8 transition cursor-pointer">
+                    <div class="w-16 h-16 bg-gray-700 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-brain text-blue-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Inteligencia Artificial y machine learling</h3>
+                    <p class="text-gray-400 mb-4">
+                        Implementación de algoritmos de aprendizaje automático para procesos inteligentes y predictivos, asistentes virtuales, análisis de datos.
+                    </p>
+                    <a href="#" class="text-blue-400 hover:text-blue-300 font-medium flex items-center">
+                        Saber más <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+                
+                <!-- Service Card 3 -->
+                <div class="service-card bg-gray-800 rounded-xl p-8 transition cursor-pointer">
+                    <div class="w-16 h-16 bg-gray-700 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-robot fa-2xl" style="color: #63E6BE;"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Automatización de procesos (RPA):</h3>
+                    <p class="text-gray-400 mb-4">
+                        Implementación de soluciones para automatización robotica de tareas repetitivas y optimizar operaciones internas de negocio.
+                    </p>
+                    <a href="#" class="text-blue-400 hover:text-blue-300 font-medium flex items-center">
+                        Saber más <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+                
+                <!-- Service Card 4 -->
+                <div class="service-card bg-gray-800 rounded-xl p-8 transition cursor-pointer">
+                    <div class="w-16 h-16 bg-gray-700 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-cogs text-blue-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Integración de Sistemas</h3>
+                    <p class="text-gray-400 mb-4">
+                        Desarrollo de software a la medida, y/o mantenimiento de software existente
+                    </p>
+                    <a href="#" class="text-blue-400 hover:text-blue-300 font-medium flex items-center">
+                        Saber más <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+                
+                <!-- Service Card 5 -->
+                <div class="service-card bg-gray-800 rounded-xl p-8 transition cursor-pointer">
+                    <div class="w-16 h-16 bg-gray-700 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-tools text-blue-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Mantenimiento preventivo y correctivo de equipos</h3>
+                    <p class="text-gray-400 mb-4">
+                        Monitoreo en tiempo real para anticipar fallas y programar mantenimientos preventivos para un buen funcionamiento de los equipos de nuestros clientes.
+                    </p>
+                    <a href="#" class="text-blue-400 hover:text-blue-300 font-medium flex items-center">
+                        Saber más <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+                
+                <!-- Service Card 6 -->
+                <div class="service-card bg-gray-800 rounded-xl p-8 transition cursor-pointer">
+                    <div class="w-16 h-16 bg-gray-700 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-chart-line text-blue-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Big Data & Analítica de Datos</h3>
+                    <p class="text-gray-400 mb-4">
+                        Extracción, análisis y transformación a partir de grandes volúmenes de datos para una mejor toma de decisiones 
+                    </p>
+                    <a href="#" class="text-blue-400 hover:text-blue-300 font-medium flex items-center">
+                        Saber más <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+
+                <!-- Service Card 7 -->
+                 <div class="service-card bg-gray-800 rounded-xl p-8 transition cursor-pointer">
+                    <div class="w-16 h-16 bg-gray-700 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-lock fa-2xl text-blue-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Ciberseguridad</h3>
+                    <p class="text-gray-400 mb-4">
+                        Auditorias, protección de datos, implementacion de protocolos de seguridad y prevención de vulnerabilidades. 
+                    </p>
+                    <a href="#" class="text-blue-400 hover:text-blue-300 font-medium flex items-center">
+                        Saber más <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+
+                 <!-- Service Card 8 -->
+                 <div class="service-card bg-gray-800 rounded-xl p-8 transition cursor-pointer">
+                    <div class="w-16 h-16 bg-gray-700 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-cloud fa-2xl text-blue-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Servicios en la nube (Cloud computing)</h3>
+                    <p class="text-gray-400 mb-4">
+                        Migración, configuración y gestión de infraestructura en la nube (AWS, Azure, Google Cloud). 
+                    </p>
+                    <a href="#" class="text-blue-400 hover:text-blue-300 font-medium flex items-center">
+                        Saber más <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+
+                 <!-- Service Card 9 -->
+                 <div class="service-card bg-gray-800 rounded-xl p-8 transition cursor-pointer">
+                    <div class="w-16 h-16 bg-gray-700 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-computer fa-2xl text-blue-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Suministro de equipos</h3>
+                    <p class="text-gray-400 mb-4">
+                        Venta e instalación de equipo de cómputo con las capacidades de almacenamiento y rendimiento de acuerdo al giro del negocio. 
+                    </p>
+                    <a href="#" class="text-blue-400 hover:text-blue-300 font-medium flex items-center">
+                        Saber más <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section class="py-20 px-6 lg:px-16" id="about">
+        <div class="container mx-auto">
+            <div class="flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
+                    <span class="text-blue-400 font-medium">SOBRE NOSOTROS</span>
+                    <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-6">Innovación en Automatización</h2>
+                    <p class="text-gray-400 mb-6">
+                        Next Infinite Group es una empresa tecnológica especializada en brindar soluciones integrales para impulsar la transformación digital de las organizaciones. Ofrecemos servicios en venta de software, analítica de datos, automatización de procesos, mantenimiento de equipos y ciberseguridad, adaptándonos a las necesidades de cada cliente.
+                    </p>
+                    <p class="text-gray-400 mb-8">
+                        Con más de 10 años de experiencia en el sector tecnológico, contamos con un equipo de profesionales altamente capacitados que han desarrollado e implementado proyectos innovadores en múltiples industrias, garantizando eficiencia, seguridad y crecimiento sostenible.
+                    </p>
+                    
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="feature-card">
+                            <div class="flex items-start">
+                                <div class="feature-icon text-blue-500 text-xl mt-1 mr-4">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold mb-1">Experiencia</h4>
+                                    <p class="text-gray-400 text-sm">10+ años en el sector</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="flex items-start">
+                                <div class="feature-icon text-blue-500 text-xl mt-1 mr-4">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold mb-1">Proyectos</h4>
+                                    <p class="text-gray-400 text-sm">50+ implementados</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="flex items-start">
+                                <div class="feature-icon text-blue-500 text-xl mt-1 mr-4">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold mb-1">Clientes</h4>
+                                    <p class="text-gray-400 text-sm">20+ satisfechos</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="flex items-start">
+                                <div class="feature-icon text-blue-500 text-xl mt-1 mr-4">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold mb-1">Certificaciones</h4>
+                                    <p class="text-gray-400 text-sm">ISO 9001 & 27001</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <img src="img/6237.jpg" alt="Equipo de Next Infinite Group trabajando en automatización" class="rounded-xl shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Stats Section -->
+    <section class="py-16 bg-blue-600 px-6">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+                <div class="py-6">
+                    <div class="text-4xl font-bold mb-2">50+</div>
+                    <div class="text-blue-100">Proyectos Completados</div>
+                </div>
+                <div class="py-6">
+                    <div class="text-4xl font-bold mb-2">20+</div>
+                    <div class="text-blue-100">Clientes Satisfechos</div>
+                </div>
+                <div class="py-6">
+                    <div class="text-4xl font-bold mb-2">10+</div>
+                    <div class="text-blue-100">Expertos en Tecnología</div>
+                </div>
+                <div class="py-6">
+                    <div class="text-4xl font-bold mb-2">5+</div>
+                    <div class="text-blue-100">Años de Experiencia</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-gray-800 px-6 lg:px-16">
+        <div class="container mx-auto">
+            <div class="text-center mb-16">
+                <span class="text-blue-400 font-medium">TESTIMONIOS</span>
+                <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4">Lo que Dicen Nuestros Clientes</h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">
+                    La satisfacción de nuestros clientes es nuestra principal motivación. Esto es lo que tienen que decir sobre nosotros.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-900 rounded-xl p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 rounded-full overflow-hidden mr-4">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Cliente Enrique Ramírez" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Enrique Ramírez</h4>
+                            <span class="text-gray-400 text-sm">Director de Operaciones, AutoParts Inc.</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-300">
+                        "La adquisición del nuevo software superó nuestras expectativas. La implementación fue rápida y el equipo nos capacitó de manera clara. Hoy en día gestionamos mejor nuestras operaciones y tenemos reportes más precisos en cuestión de segundos. La inversión realmente valió la pena."
+                    </p>
+                    <div class="flex mt-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-900 rounded-xl p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 rounded-full overflow-hidden mr-4">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Cliente Laura García" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Laura García</h4>
+                            <span class="text-gray-400 text-sm">Gerente de Producción, PharmaCorp</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-300">
+                        "Automatizar los procesos internos nos ayudó a reducir errores y a ahorrar mucho tiempo. Antes dedicábamos horas a tareas repetitivas, pero ahora todo es más ágil y eficiente. El personal puede enfocarse en actividades estratégicas y la productividad aumentó notablemente."
+                    </p>
+                    <div class="flex mt-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-gray-900 rounded-xl p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 rounded-full overflow-hidden mr-4">
+                            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Cliente Roberto López" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Roberto López</h4>
+                            <span class="text-gray-400 text-sm">CEO, ElectroMech Solutions</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-300">
+                        "Después de la implementación de las soluciones de ciberseguridad, nuestra empresa se siente mucho más protegida. Antes teníamos constantes intentos de acceso no autorizado, pero ahora contamos con un monitoreo en tiempo real y protocolos de respuesta más sólidos. Nos dio tranquilidad y confianza para enfocarnos en el crecimiento del negocio."
+                    </p>
+                    <div class="flex mt-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="py-20 hero-gradient px-6 lg:px-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">¿Listo para Transformar tu Operación?</h2>
+            <p class="text-gray-300 max-w-2xl mx-auto mb-8">
+                Agenda una consulta gratuita con nuestros expertos en automatización y descubre cómo podemos optimizar tus procesos.
+            </p>
+           <a href="https://wa.me/50238986248" target="_blank" 
+             class="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg font-medium text-lg transition text-white inline-block">
+             Contactar a un Especialista
+            </a>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="py-20 px-6 lg:px-16" id="contact">
+        <div class="container mx-auto">
+            <div class="flex flex-col lg:flex-row">
+                <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
+                    <span class="text-blue-400 font-medium">CONTACTO</span>
+                    <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-6">Ponte en Contacto</h2>
+                    <p class="text-gray-400 mb-8">
+                        Estamos aquí para responder cualquier pregunta que tengas sobre nuestros servicios de robótica y automatización industrial.
+                    </p>
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="text-blue-400 text-xl mt-1 mr-4">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">Oficina Central</h4>
+                                <p class="text-gray-400">1ra Calle 50-53 Zona 2 de Mixco</p>
+                                <p class="text-gray-400">Mixco, Guatemala</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="text-blue-400 text-xl mt-1 mr-4">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">Teléfono</h4>
+                                <p class="text-gray-400">+502 2339-5200</p>
+                                <p class="text-gray-400">Lunes a Viernes: 9:00 - 18:00</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="text-blue-400 text-xl mt-1 mr-4">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">Correo Electrónico</h4>
+                                <p class="text-gray-400">admin@nextinfinitegroup.com</p>
+                                <p class="text-gray-400">info@nextinfinitegroup.com</p>
+                            </div>
+                        </div>
+                        <!-- WhatsApp Contact Section -->
+                        <div class="flex items-start">
+                            <div class="text-blue-400 text-xl mt-1 mr-4">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">WhatsApp</h4>
+                                <p class="text-gray-400">+502 4195-9111</p>
+                                <p class="text-gray-400">Respuesta inmediata</p>
+                                <a href="https://wa.me/50241959111" target="_blank" 
+                                   class="inline-flex items-center mt-2 px-4 py-2 bg-green-600 hover:bg-green-700 rounded-lg transition">
+                                    <i class="fab fa-whatsapp mr-2"></i> Chatear ahora
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2">
+                    <form class="bg-gray-800 rounded-xl p-8">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                            <div>
+                                <label for="name" class="block text-gray-300 mb-2">Nombre Completo</label>
+                                <input type="text" id="name" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-gray-300 mb-2">Correo Electrónico</label>
+                                <input type="email" id="email" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            </div>
+                        </div>
+                        <div class="mb-6">
+                            <label for="subject" class="block text-gray-300 mb-2">Asunto</label>
+                            <input type="text" id="subject" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-300 mb-2">Mensaje</label>
+                            <textarea id="message" rows="4" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 py-3 rounded-lg font-medium transition">
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/50241959111" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-12 px-6 lg:px-16">
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-12">
+                <div class="mb-8 md:mb-0">
+                    <a href="#" class="text-2xl font-bold text-blue-400 flex items-center">
+                        <i class="fas fa-robot mr-2 text-blue-500"></i>
+                        Next Infinite Group
+                    </a>
+                    <p class="text-gray-400 mt-2 max-w-xs">
+                        Líderes en soluciones tecnológicas
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                    <div>
+                        <h4 class="text-lg font-bold mb-4">Empresa</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-blue-400 transition">Inicio</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-blue-400 transition">Nosotros</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-blue-400 transition">Servicios</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-blue-400 transition">Proyectos</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-lg font-bold mb-4">Servicios</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-blue-400 transition">Automatización</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-blue-400 transition">Robótica Colaborativa</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-blue-400 transition">Visión por Computadora</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-blue-400 transition">Integración de Sistemas</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-lg font-bold mb-4">Legal</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-blue-400 transition">Privacidad</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-blue-400 transition">Términos</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-blue-400 transition">Cookies</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">
+                    &copy; 2025-NextInfiniteGroup. Todos los derechos reservados By-Luis García.
+                </p>
+                
+                <div class="flex space-x-6">
+                    <a href="https://www.facebook.com/profile.php?id=61575199916389#" class="text-gray-400 hover:text-blue-400 text-xl transition">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://x.com/next_infinite_g" class="text-gray-400 hover:text-blue-400 text-xl transition">
+                        <i class="fab fa-x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/next-infinite-group/" class="text-gray-400 hover:text-blue-400 text-xl transition">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/nigsa_19/" class="text-gray-400 hover:text-blue-400 text-xl transition">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Scripts externos -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <!-- Script local -->
+    <script src="js/main.js"></script>
+</body>
+</html>
